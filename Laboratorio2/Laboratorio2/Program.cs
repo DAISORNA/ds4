@@ -56,8 +56,10 @@ internal class Program
 
 }
 
-
-
-
+public class MyClass
+{
+    //Declarando variable estatica
+    public static int Valor;
+}
 
 
