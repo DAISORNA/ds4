@@ -30,7 +30,6 @@ namespace Laboratorio2
         {
             //Utilizando variables de instancia dentro de metodos de la clase.
             return FirstName + " " + LastName;
-
         }
 
     }
