@@ -31,7 +31,6 @@ namespace Laboratorio2
             return FirstName + " " + LastName;
         }
     }
-
     public class MyClass
     {
         // Declarando variable estática
