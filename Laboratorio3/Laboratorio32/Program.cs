@@ -2,30 +2,26 @@
 {
     private static void Main(string[] args)
     {
-        int primerNumero, segundoNumero, suma;
+        double radio, area;
 
-        Console.Write("Introduce el primer numero: ");
-        primerNumero = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Introduce el radio del círculo: ");
+        radio = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("Introduce el segundo numero: ");
-        segundoNumero = Convert.ToInt32(Console.ReadLine());
+      
+        CalculosMatematicos calculos = new CalculosMatematicos();
 
-        suma = primerNumero + segundoNumero;
+      
+        area = calculos.CalculoArea(radio);
 
-        Console.WriteLine("La suma de {0} y {1}", primerNumero, segundoNumero, suma);
+      
+        Console.WriteLine("El área del círculo con radio {0} es: {1}", radio, area);
     }
-
 
     class CalculosMatematicos
     {
-        public int Calcular(int a, int b)
-        {
-            return (a + b) * (a - b);
-        }
         public double CalculoArea(double radio)
         {
             return Math.PI * radio * radio;
         }
     }
-
 }

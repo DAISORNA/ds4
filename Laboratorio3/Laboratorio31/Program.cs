@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        int primerNumero, segundoNumero, suma;
+        int primerNumero, segundoNumero;
 
         Console.Write("Introduce el primer numero: ");
         primerNumero = Convert.ToInt32(Console.ReadLine());
@@ -10,9 +10,12 @@
         Console.Write("Introduce el segundo numero: ");
         segundoNumero = Convert.ToInt32(Console.ReadLine());
 
-        suma = primerNumero + segundoNumero;
+      
+        CalculosMatematicos calculos = new CalculosMatematicos();
 
-        Console.WriteLine("La suma de {0} y {1}", primerNumero, segundoNumero, suma);
+        int resultado = calculos.Calcular(primerNumero, segundoNumero);
+
+        Console.WriteLine("El resultado de la operacion (a+b)*(a-b) es {0}", resultado);
     }
 
  

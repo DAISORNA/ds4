@@ -2,34 +2,29 @@
 {
     private static void Main(string[] args)
     {
-        int primerNumero, segundoNumero, suma;
+        int largo, ancho, perimetro;
 
-        Console.Write("Introduce el primer numero: ");
-        primerNumero = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Introduce el largo del rectángulo: ");
+        largo = Convert.ToInt32(Console.ReadLine());
 
-        Console.Write("Introduce el segundo numero: ");
-        segundoNumero = Convert.ToInt32(Console.ReadLine());
+        Console.Write("Introduce el ancho del rectángulo: ");
+        ancho = Convert.ToInt32(Console.ReadLine());
 
-        suma = primerNumero + segundoNumero;
+       
+        CalculosMatematicos calculos = new CalculosMatematicos();
 
-        Console.WriteLine("La suma de {0} y {1}", primerNumero, segundoNumero, suma);
+       
+        perimetro = calculos.CalculoPerimetroRectangulo(largo, ancho);
+
+    
+        Console.WriteLine("El perímetro del rectángulo es: {0}", perimetro);
     }
-
 
     class CalculosMatematicos
     {
-        public int Calcular(int a, int b)
-        {
-            return (a + b) * (a - b);
-        }
-        public double CalculoArea(double radio)
-        {
-            return Math.PI * radio * radio;
-        }
         public int CalculoPerimetroRectangulo(int largo, int ancho)
         {
             return 2 * (largo + ancho);
         }
     }
-
 }

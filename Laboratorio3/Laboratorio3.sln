@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio3", "Laboratorio3\Laboratorio3.csproj", "{9B48DF56-AF59-4D76-9CB7-9F7C15F83A50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio3", "Laboratorio3\Laboratorio3.csproj", "{9B48DF56-AF59-4D76-9CB7-9F7C15F83A50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio31", "Laboratorio31\Laboratorio31.csproj", "{9ED9157B-942B-4978-8F72-7DAE9F2C5D2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio31", "Laboratorio31\Laboratorio31.csproj", "{9ED9157B-942B-4978-8F72-7DAE9F2C5D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio32", "Laboratorio32\Laboratorio32.csproj", "{37C9B307-057F-4E7D-97FE-5AF3C03F4EFB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio32", "Laboratorio32\Laboratorio32.csproj", "{37C9B307-057F-4E7D-97FE-5AF3C03F4EFB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laboratorio33", "Laboratorio33\Laboratorio33.csproj", "{4983A8A0-7E52-4163-99D2-6850FD46C3B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Laboratorio33", "Laboratorio33\Laboratorio33.csproj", "{4983A8A0-7E52-4163-99D2-6850FD46C3B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
