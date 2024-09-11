@@ -7,7 +7,7 @@ namespace Laboratorio2
         static void Main(string[] args)
         {
             Client client = new Client();
-            // Ejemplo utilizando las variables de instancia de Clase.
+           
             client.FirstName = "Su_Nombre";
             client.LastName = "Su_Apellido";
             client.Age = 15;
@@ -19,7 +19,7 @@ namespace Laboratorio2
 
     public class Client
     {
-        // Declarando variables de instancia en clase.
+        
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -27,13 +27,13 @@ namespace Laboratorio2
 
         public string GetFullName()
         {
-            // Utilizando variables de instancia dentro de métodos de la clase.
+           
             return FirstName + " " + LastName;
         }
     }
     public class MyClass
     {
-        // Declarando variable estática
+     
         public static int Valor;
     }
 }
