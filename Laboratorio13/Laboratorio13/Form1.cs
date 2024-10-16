@@ -8,7 +8,7 @@ namespace Laboratorio13
 {
     public partial class Form1 : Form
     {
-       string connectionString = @"Server=DESKTOP-F9A2H8U;Database=Northwind;TrustServerCertificate=true;Integrated Security=SSPI;";
+       string connectionString = @"Server= .;Database=Northwind;TrustServerCertificate=true;Integrated Security=SSPI;";
 
         public Form1()
         {
